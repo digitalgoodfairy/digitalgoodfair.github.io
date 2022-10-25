@@ -1,0 +1,167 @@
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: 'Rokkitt', serif;
+}
+
+nav {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  font-family: 'Rokkitt', serif;
+  font-size: 20px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Rokkitt', serif;
+}
+
+h1 {
+  font-size: 150px;
+  font-weight: normal;
+  margin: 0;
+}
+
+h2 {
+  font-size: 100px;
+  color: #9966CC;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 50px;
+  color: #D099E2;
+  font-weight: normal;
+  margin: 0;
+}
+
+h4 {
+  font-size: 32px;
+  color: #F2F3F5;
+  background-color: #C2C2FF;
+  display: inline-block;
+  margin: 0;
+  padding: 4px;
+}
+
+a {
+  letter-spacing: 3px;
+  color: #9A67CD;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p {
+  line-height: 145%;
+}
+
+.navigation {
+  text-align: center;
+}
+
+.navigation li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+navigation li a {
+  color: #9A67CD;
+  text-decoration: none;
+}
+
+.left-col, .right-col {
+  color: #9966CC;
+  text-align: center;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-col {
+  background-color: #C2C1FE;
+}
+
+.right-col {
+  background-color: #C2C1FE;
+}
+
+.top-container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.scroll {
+  color: #9966CC;
+  text-align: center;
+  background-color: #fff;
+}
+
+.text {
+  background-color: #E6E6FA;
+  font-size: 18px;
+}
+
+.nd-text {
+  background-color: #E6E6FA;
+}
+
+.offer {
+  color: #9966CC;
+}
+
+.aboutme {
+  color: #9966CC;
+  font-size: 18px;
+}
+
+.extra-gutters {
+  padding: 0 60px;
+}
+
+.extra-gutters-nd {
+  padding: 0 60px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+footer {
+  background-color: #D099E2;
+  min-height: 220px;
+  background : url('../img/socialmedia2.svg');
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  background-color: #D099E2;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.social-icon {
+  height: 60px;
+  margin: 10px 20px;
+}
+
+.social-icons-container {
+  text-align: center;
+}
+
+.contact {
+  color: #9966CC;
+  font-size: 25px;
+}
+
+.designed {
+  text-align: text-align: center;
+}
